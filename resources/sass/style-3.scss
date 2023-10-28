@@ -1,0 +1,23 @@
+.contact-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+
+    h2 {
+        font-size: 14pt;
+        color: #DA0037;
+        padding-top: 10px;
+    }
+
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #DA0037;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+    }
+}

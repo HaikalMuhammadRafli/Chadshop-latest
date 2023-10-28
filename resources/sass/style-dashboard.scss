@@ -1,0 +1,64 @@
+/* produk.show */
+.produk-show-main {
+    .rating-star {
+
+        i {
+            font-size: 10pt;
+        }
+
+        .checked {
+            color: #ffbb00;
+        }
+
+        .unchecked {
+            color: #969696;
+        }
+    }
+
+    .rating {
+        font-size: 12pt;
+        margin: auto 0;
+    }
+
+
+    .ulasan-profile-img {
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    .ulasan-profile {
+
+        h6 {
+            font-size: 12pt;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    .btn-reply {
+        border: 0;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+        font-size: 10pt;
+    }
+
+    .btn-more {
+        border: 0;
+        background-color: transparent;
+        margin: 0;
+        padding: 0;
+        font-size: 11pt;
+    }
+
+    .btn-hapus {
+        border: 0;
+        background-color: transparent;
+        padding: 5px 15px;
+        color: #DA0037;
+    }
+}

@@ -1,0 +1,22 @@
+.about-main {
+    margin-top: 65px;
+    min-height: 76vh;
+    margin-bottom: 65px;
+
+    .card {
+        margin-top: 300px;
+        border-top: 4px solid #00df82;
+        border-bottom: 4px solid #00df82;
+
+        .card-body {
+            h4 {
+                font-size: 16pt;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 11pt;
+            }
+        }
+    }
+}

@@ -1,0 +1,1311 @@
+/* PUBLIC */
+* {
+    font-family: Poppins;
+}
+
+.sec-title {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+/* APP */
+.app {
+    .navbar-brand {
+        cursor: default;
+
+        h4 {
+            font-size: 14pt;
+            font-weight: bolder;
+            margin: 0;
+            color: #171717;
+        }
+
+        p {
+            font-size: 8pt;
+            font-weight: 800;
+            font-family: montserrat;
+            margin: 0;
+            margin-top: -3px;
+            color: #00df82;
+            letter-spacing: 2.7px;
+        }
+    }
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: white;
+
+    .navbar-brand {
+        cursor: default;
+
+        h4 {
+            font-size: 14pt;
+            font-weight: bolder;
+            margin: 0;
+            color: #171717;
+        }
+
+        p {
+            font-size: 8pt;
+            font-weight: 800;
+            font-family: montserrat;
+            margin: 0;
+            margin-top: -3px;
+            color: #00df82;
+            letter-spacing: 2.7px;
+        }
+    }
+
+    .navbar-brand:hover {
+        color: #00df82;
+    }
+
+    .navbar-toggler {
+        color: #171717;
+    }
+
+    .navbar-collapse {
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    font-size: 10pt;
+                    color: #171717;
+                    transition: 0.2s;
+
+                    .fa-cart-shopping {
+                        font-size: 10pt;
+                    }
+                }
+
+                .nav-link:hover {
+                    color: #00df82;
+                }
+
+                .btn-login {
+                    font-size: 12pt;
+                    font-weight: 500;
+                    background-color: #00df82;
+                    border: 0;
+                    border-radius: 15px 0 0 15px;
+                    margin: auto 0;
+                    padding-left: 20px;
+                }
+
+                .btn-register {
+                    font-size: 12pt;
+                    font-weight: 500;
+                    background-color: #00df82;
+                    border: 0;
+                    border-radius: 0 15px 15px 0;
+                    margin: auto 0;
+                    padding-right: 20px;
+                }
+
+                .username {
+                    color: #00df82;
+                    padding: 5px 20px;
+                    border: 1.5px solid #00df82;
+                    border-radius: 15px;
+                }
+
+                .btn-group {
+                    .nav-link {
+                        font-size: 10pt;
+                        color: #171717;
+                        border: 0;
+                        background-color: transparent;
+                        transition: 0.2s;
+                    }
+
+                    .nav-link:hover {
+                        color: #00df82;
+                    }
+                }
+
+                .logout-btn {
+                    color: #DA0037;
+                }
+
+                .search {
+                    input {
+                        border-radius: 25px 0 0 25px;
+                    }
+
+                    button {
+                        border-radius: 0 25px 25px 0;
+                        border: 1px solid #00df82;
+                        color: #00df82;
+                    }
+
+                    button:hover {
+                        color: white;
+                        background-color: #00df82;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* FOOTER */
+footer {
+    background-color: #00df82;
+    margin: 0;
+    padding: 20px 0;
+
+    .foot-wrap {
+        margin: auto 0;
+
+        .foot-1 {
+            .footer-brand {
+                cursor: default;
+                text-decoration: none;
+
+                h4 {
+                    font-size: 14pt;
+                    font-weight: bolder;
+                    margin: 0;
+                    color: white;
+                }
+
+                p {
+                    font-size: 8pt;
+                    font-weight: 800;
+                    font-family: montserrat;
+                    margin: 0;
+                    margin-top: -3px;
+                    color: white;
+                    letter-spacing: 2.7px;
+                }
+            }
+
+            .footer-brand:hover {
+                color: white;
+            }
+
+            .copyright {
+                color: white;
+                margin: 0;
+            }
+        }
+
+        .foot-2 {
+            margin: auto 0;
+
+            .fs {
+                color: white;
+                font-size: 16pt;
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+/* auth.login */
+.login-main {
+    .card {
+        .card-body {
+            .title {
+                color: #171717;
+                font-size: 16pt;
+                font-weight: bold;
+            }
+
+            .card-text {
+                color: #00df82;
+                font-size: 12pt;
+            }
+
+            .btn {
+                width: 100%;
+                color: white;
+                background-color: #00df82;
+                border: 0;
+                font-weight: bold;
+            }
+
+            .logreg {
+                color: #00df82;
+            }
+        }
+    }
+}
+
+/* auth.register*/
+.register-main {
+    .card {
+        .card-body {
+            .title {
+                color: #171717;
+                font-size: 16pt;
+                font-weight: bold;
+            }
+
+            .card-text {
+                color: #00df82;
+                font-size: 12pt;
+            }
+
+            .btn {
+                color: white;
+                background-color: #00df82;
+                border: 0;
+            }
+
+            .logreg {
+                color: #00df82;
+            }
+        }
+    }
+}
+
+/* homepage.index */
+.index-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+
+    .carousel {
+        .carousel-inner {
+            .carousel-item {
+                height: 350px;
+                border-radius: 10px;
+
+                img {
+                    position: absolute;
+                    object-fit: cover;
+                    top: 0;
+                    left: 0;
+                    min-height: 350px;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+
+    .kategori-container {
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+
+        .btn-group {
+            .btn-kategori {
+                text-decoration: none;
+                font-size: 12pt;
+                color: #00df82;
+                border: 1px solid #00df82;
+            }
+
+            .btn-kategori:hover {
+                color: white;
+                background-color: #00df82;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .link-prim {
+        color: white;
+        background-color: #00df82;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    .card {
+        height: 415px;
+        padding: 5px;
+
+        .discount {
+            color: white;
+            background-color: #DA0037;
+            padding: 5px 10px;
+            border-radius: 5px 0 0 5px;
+
+            position: absolute;
+            right: -1px;
+            top: 10px;
+        }
+
+        .promoted-produk {
+            background-color: #00df82;
+            margin: 0;
+            color: white;
+            width: 100%;
+            padding: 3px 15px;
+            font-size: 10pt;
+            border-radius: 0 0 10px 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .product-img-container {
+            height: 200px;
+            max-width: 100%;
+            background-color: #808080;
+            align-items: center;
+            display: flex;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+
+            .product-img {
+                max-height: 200px;
+                width: 100%;
+                margin: auto 0;
+                border-radius: 0;
+            }
+        }
+
+        .card-body {
+            .product-title-container {
+                margin-bottom: 8px;
+
+                .category-text {
+                    font-size: 10pt;
+                    color: #00df82;
+                    margin: 0;
+                    margin-bottom: 5px;
+                }
+
+                .card-text {
+                    font-size: 10pt;
+                    color: #171717;
+                    margin: 0;
+
+                    width: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+
+            .product-price-container {
+                margin-bottom: 10px;
+
+                del {
+                    font-size: 8pt;
+                    color: #DA0037;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 11pt;
+                    color: #171717;
+                    margin: 0;
+                    margin-top: -5px;
+                }
+            }
+
+            hr {
+                margin: 10px 0;
+            }
+
+            .product-rating-container {
+
+                i {
+                    color: #ffbb00;
+                    font-size: 9pt;
+                    margin: auto 0;
+                    margin-right: 5px;
+                }
+
+                p {
+                    color: #171717;
+                    font-size: 9pt;
+                    margin: auto 0;
+                }
+            }
+
+            .alamat-seller {
+                font-size: 10pt;
+                color: #808080;
+                margin: 0;
+            }
+        }
+    }
+
+    .event-container {
+        width: 100%;
+        background-color: #00df82;
+        padding-top: 35px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 10px;
+    }
+}
+
+/* homepage.kategori */
+.kategori-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+
+    .kategori-container {
+        padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+
+        .btn-group {
+            .btn-kategori {
+                text-decoration: none;
+                font-size: 12pt;
+                color: #00df82;
+                border: 1px solid #00df82;
+            }
+
+            .btn-kategori:hover {
+                color: white;
+                background-color: #00df82;
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card {
+        height: 415px;
+        padding: 5px;
+
+        .discount {
+            color: white;
+            background-color: #DA0037;
+            padding: 5px 10px;
+            border-radius: 5px 0 0 5px;
+
+            position: absolute;
+            right: -1px;
+            top: 10px;
+        }
+
+        .promoted-produk {
+            background-color: #00df82;
+            margin: 0;
+            color: white;
+            width: 100%;
+            padding: 3px 15px;
+            font-size: 10pt;
+            border-radius: 0 0 10px 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .product-img-container {
+            height: 200px;
+            max-width: 100%;
+            background-color: #808080;
+            align-items: center;
+            display: flex;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+
+            .product-img {
+                max-height: 200px;
+                width: 100%;
+                margin: auto 0;
+                border-radius: 0;
+            }
+        }
+
+        .card-body {
+            .product-title-container {
+                margin-bottom: 8px;
+
+                .category-text {
+                    font-size: 10pt;
+                    color: #00df82;
+                    margin: 0;
+                    margin-bottom: 5px;
+                }
+
+                .card-text {
+                    font-size: 10pt;
+                    color: #171717;
+                    margin: 0;
+
+                    width: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+
+            .product-price-container {
+                margin-bottom: 10px;
+
+                del {
+                    font-size: 8pt;
+                    color: #DA0037;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 11pt;
+                    color: #171717;
+                    margin: 0;
+                    margin-top: -5px;
+                }
+            }
+
+            hr {
+                margin: 10px 0;
+            }
+
+            .product-rating-container {
+
+                i {
+                    color: #ffbb00;
+                    font-size: 9pt;
+                    margin: auto 0;
+                    margin-right: 5px;
+                }
+
+                p {
+                    color: #171717;
+                    font-size: 9pt;
+                    margin: auto 0;
+                }
+            }
+
+            .alamat-seller {
+                font-size: 10pt;
+                color: #808080;
+                margin: 0;
+            }
+        }
+    }
+}
+
+/* homepage.produk */
+.produk-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+
+    .kategori-list {
+        background-color: white;
+        height: 100%;
+        padding: 20px;
+        border-radius: 10px;
+
+        .list-group {
+            .list-group-item {
+                border: 0;
+                border-bottom: 2px solid #3d3d3d;
+                margin-bottom: 10px;
+
+                p {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .card {
+        height: 415px;
+        padding: 5px;
+
+        .discount {
+            color: white;
+            background-color: #DA0037;
+            padding: 5px 10px;
+            border-radius: 5px 0 0 5px;
+
+            position: absolute;
+            right: -1px;
+            top: 10px;
+        }
+
+        .promoted-produk {
+            background-color: #00df82;
+            margin: 0;
+            color: white;
+            width: 100%;
+            padding: 3px 15px;
+            font-size: 10pt;
+            border-radius: 0 0 10px 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .product-img-container {
+            height: 200px;
+            max-width: 100%;
+            background-color: #808080;
+            align-items: center;
+            display: flex;
+            border-radius: 5px 5px 0 0;
+            overflow: hidden;
+
+            .product-img {
+                max-height: 200px;
+                width: 100%;
+                margin: auto 0;
+                border-radius: 0;
+            }
+        }
+
+        .card-body {
+            .product-title-container {
+                margin-bottom: 8px;
+
+                .category-text {
+                    font-size: 10pt;
+                    color: #00df82;
+                    margin: 0;
+                    margin-bottom: 5px;
+                }
+
+                .card-text {
+                    font-size: 10pt;
+                    color: #171717;
+                    margin: 0;
+
+                    width: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+            }
+
+            .product-price-container {
+                margin-bottom: 10px;
+
+                del {
+                    font-size: 8pt;
+                    color: #DA0037;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 11pt;
+                    color: #171717;
+                    margin: 0;
+                    margin-top: -5px;
+                }
+            }
+
+            hr {
+                margin: 10px 0;
+            }
+
+            .product-rating-container {
+
+                i {
+                    color: #ffbb00;
+                    font-size: 9pt;
+                    margin: auto 0;
+                    margin-right: 5px;
+                }
+
+                p {
+                    color: #171717;
+                    font-size: 9pt;
+                    margin: auto 0;
+                }
+            }
+
+            .alamat-seller {
+                font-size: 10pt;
+                color: #808080;
+                margin: 0;
+            }
+        }
+    }
+}
+
+/* homepage.produkdetail */
+.produkdetail-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+
+    .carousel {
+        .carousel-inner {
+            border-radius: 10px;
+        }
+    }
+
+    .product-rating {
+        display: flex;
+        flex-direction: row;
+
+        .rating-star {
+            i {
+                font-size: 12pt;
+            }
+
+            .checked {
+                color: #ffbb00;
+            }
+
+            .unchecked {
+                color: #969696;
+            }
+        }
+
+        .rating {
+            font-size: 12pt;
+            margin: auto 0;
+        }
+    }
+
+    .profil-toko {
+        .profile-toko-img {
+            width: 50px;
+            height: 50px;
+            border-radius: 25px;
+            margin-right: 10px;
+        }
+
+        .profil-toko-text {
+            margin: auto 0;
+
+            h6 {
+                margin: 0;
+                font-weight: bold;
+            }
+
+            p {
+                margin: 0;
+            }
+        }
+
+        .seller-more-btn {
+            background-color: transparent;
+            border: 0;
+        }
+    }
+
+    .harga-produk {
+        margin: 10px 0;
+
+        del {
+            font-size: 9pt;
+            color: #DA0037;
+        }
+
+        p {
+            font-size: 12pt;
+            margin: 0;
+        }
+    }
+
+    .ulasan-card {
+        .ulasan-product {
+            .ulasan-profile-img {
+                height: 40px;
+                border-radius: 20px;
+            }
+
+            .ulasan-profile {
+                margin-left: -10px;
+
+                h6 {
+                    font-size: 12pt;
+                    font-weight: 600;
+                    margin: 0;
+                }
+
+                p {
+                    margin: 0;
+                }
+            }
+
+            .rating-star {
+                i {
+                    font-size: 10pt;
+                }
+
+                .checked {
+                    color: #ffbb00;
+                }
+
+                .unchecked {
+                    color: #969696;
+                }
+            }
+
+            .btn-reply {
+                border: 0;
+                background-color: transparent;
+                margin: 0;
+                padding: 0;
+                font-size: 10pt;
+            }
+
+            .btn-more {
+                border: 0;
+                background-color: transparent;
+                margin: 0;
+                padding: 0;
+                font-size: 11pt;
+            }
+
+            .btn-hapus {
+                border: 0;
+                background-color: transparent;
+                padding: 5px 15px;
+                color: #DA0037;
+            }
+        }
+    }
+}
+
+/* homepage.event */
+.event-main {
+    margin-top: 60px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+
+    .banner {
+        width: 100%;
+    }
+
+    .card {
+        height: 380px;
+
+        a {
+            text-decoration: none;
+        }
+
+        .discount {
+            color: white;
+            background-color: #DA0037;
+            padding: 5px 10px;
+            border-radius: 5px;
+
+            position: absolute;
+            right: 6px;
+            top: 6px;
+        }
+
+        .promoted-produk {
+            background-color: #00df82;
+            margin: 0;
+            color: white;
+            width: 100%;
+            padding: 3px 15px;
+            font-size: 10pt;
+            border-radius: 0 0 10px 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .product-img-container {
+            height: 200px;
+            max-width: 100%;
+            background-color: #808080;
+            align-items: center;
+            display: flex;
+
+            .product-img {
+                max-height: 200px;
+                width: 100%;
+                margin: auto 0;
+                border-radius: 0;
+            }
+        }
+
+        .card-body {
+            .product-title-container {
+                margin-bottom: 8px;
+
+                .category-text {
+                    font-size: 10pt;
+                    color: #00df82;
+                    margin: 0;
+                    margin-bottom: 5px;
+                }
+
+                .card-text {
+                    font-size: 10pt;
+                    color: #171717;
+                }
+            }
+
+            .product-price-container {
+                del {
+                    font-size: 8pt;
+                    color: #DA0037;
+                    margin: 0;
+                }
+
+                p {
+                    font-size: 11pt;
+                    color: #171717;
+                    margin: 0;
+                    margin-top: -5px;
+                }
+            }
+
+            hr {
+                margin: 10px 0;
+            }
+
+            .product-rating-container {
+                i {
+                    color: #ffbb00;
+                    font-size: 9pt;
+                    margin: auto 0;
+                    margin-right: 5px;
+                }
+
+                p {
+                    color: #171717;
+                    font-size: 9pt;
+                    margin: auto 0;
+                }
+            }
+        }
+    }
+}
+
+/* cart.index */
+.cart-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+}
+
+/* cart.checkout */
+.checkout-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+}
+
+/* alamatpengiriman.index */
+.alamatpengiriman-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+}
+
+/* transaksi.list */
+.transaksi-list-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+
+    .nav-pills {
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+
+        .nav-item {
+            .nav-link {
+                color: #00df82;
+                border: 1px solid #00df82;
+                border-radius: 10px;
+                padding: 8px 70px;
+            }
+
+            .active {
+                background-color: #00df82;
+                color: white;
+            }
+        }
+    }
+
+    .transaksi-list {
+        .card {
+            .card-header {
+                .heads {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .head-left {
+                        display: flex;
+                        flex-direction: row;
+
+                        .icon {
+                            margin: auto 0;
+                            margin-right: 10px;
+
+                            i {
+                                font-size: 22pt;
+                                color: #00df82;
+                                margin: auto 0;
+                            }
+                        }
+
+                        .title {
+                            margin: auto 0;
+
+                            h5 {
+                                font-size: 12pt;
+                                margin: 0;
+
+                            }
+
+                            p {
+                                font-size: 8pt;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .card-body {
+                .produk-head {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+
+                    .produk-left {
+                        display: flex;
+                        flex-direction: row;
+
+                        .product-img {
+                            height: 60px;
+                            width: auto;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+            }
+
+            .card-footer {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                .foot-left {
+                    color: #171717;
+                }
+
+                .foot-right {
+                    color: #171717;
+                }
+            }
+        }
+    }
+}
+
+/* transaksi.detail */
+.transaksi-detail-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+
+    .product-img {
+        height: 60px;
+        width: auto;
+        border-radius: 5px;
+    }
+}
+
+/* wishlist.index */
+.wishlist-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+
+    .wishlist-list {
+        height: 300px;
+
+        a {
+            text-decoration: none;
+            color: #171717;
+
+            .wish-card {
+                background-color: white;
+                padding: 20px;
+                border-radius: 5px;
+
+                .content {
+                    .product-img {
+                        height: 70px;
+                        width: auto;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ulasan.create */
+.ulasan-create {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+
+    .product-details {
+        .carousel {
+
+            .carousel-inner {
+                border-radius: 10px;
+            }
+        }
+
+        .product-card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            .profil-toko {
+                .profile-toko-img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 25px;
+                    margin-right: 10px;
+                }
+
+                .profil-toko-text {
+                    margin: auto 0;
+
+                    h6 {
+                        margin: 0;
+                        font-weight: bold;
+                    }
+
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+
+            .harga-produk {
+                margin: 10px 0;
+
+                del {
+                    font-size: 9pt;
+                    color: #DA0037;
+                }
+
+                p {
+                    font-size: 12pt;
+                    margin: 0;
+                }
+            }
+
+            .ulasan-card {
+                .ulasan-product {
+                    .rating-star {
+
+                        i {
+                            font-size: 10pt;
+                        }
+
+                        .checked {
+                            color: #ffbb00;
+                        }
+
+                        .unchecked {
+                            color: #969696;
+                        }
+                    }
+
+                    .rating {
+                        font-size: 12pt;
+                        margin: auto 0;
+                    }
+
+
+                    .ulasan-profile-img {
+                        height: 40px;
+                        border-radius: 20px;
+                    }
+
+                    .ulasan-profile {
+                        margin-left: -10px;
+
+                        h6 {
+                            font-size: 12pt;
+                            font-weight: 600;
+                            margin: 0;
+                        }
+
+                        p {
+                            margin: 0;
+                        }
+                    }
+
+                    .btn-reply {
+                        border: 0;
+                        background-color: transparent;
+                        margin: 0;
+                        padding: 0;
+                        font-size: 10pt;
+                    }
+
+                    .btn-more {
+                        border: 0;
+                        background-color: transparent;
+                        margin: 0;
+                        padding: 0;
+                        font-size: 11pt;
+                    }
+
+                    .btn-hapus {
+                        border: 0;
+                        background-color: transparent;
+                        padding: 5px 15px;
+                        color: #DA0037;
+                    }
+                }
+
+                .rating-star {
+                    color: #ffbb00;
+                    font-size: 16pt;
+                    text-transform: uppercase;
+
+                    input {
+                        display: none;
+                    }
+
+                    input+label {
+                        font-size: 16pt;
+                        cursor: pointer;
+                        transition: 0.2s ease;
+                    }
+
+                    input:checked+label~label {
+                        color: #969696;
+                    }
+
+                    label:active {
+                        transform: scale(0.8);
+                        transition: 0.3s ease;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.user-member-main {
+    margin-top: 90px;
+    min-height: 60vh;
+    margin-bottom: 90px;
+
+    .card {
+        border-top: 5px solid #00df82;
+        border-bottom: 5px solid #00df82;
+
+        .profile-user-img {
+            border-radius: 100%;
+            background-color: #FEFEFE;
+            padding: 3px;
+            border: 3px solid #00df82;
+            width: 130px;
+        }
+    }
+}
